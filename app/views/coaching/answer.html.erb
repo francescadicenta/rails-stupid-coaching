@@ -1,2 +1,13 @@
-<h1>Coaching#answer</h1>
-<p>Find me in app/views/coaching/answer.html.erb</p>
+<h1><%= @question %></h1>
+<!-- <p>Find me in app/views/coaching/answer.html.erb</p> -->
+<p>- You</p>
+
+<h1><%= @answer %></h1>
+<p>- Coach</p>
+
+<%= link_to 'Go back to ask a new question', ask_path %>
+
+<!-- <form action="/answer" method="get">
+  <input type="text" name="query" placeholder="answer">
+  <input type="submit">
+</form> -->
